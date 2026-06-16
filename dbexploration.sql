@@ -1,3 +1,35 @@
+/*
+===========================================================
+Data Warehouse Analytics - Exploratory Data Analysis (EDA)
+===========================================================
+
+Purpose:
+- Explore data warehouse structure and contents
+- Validate dimensions and fact tables
+- Analyze customer, product, and sales data
+- Generate key business KPIs and summary metrics
+- Support reporting and dashboard development
+
+Tables Used:
+- dim_customers
+- dim_products
+- fact_sales
+
+Analysis Includes:
+- Database metadata exploration
+- Customer demographics
+- Product category analysis
+- Sales performance metrics
+- Revenue analysis by category and customer
+- Geographic sales distribution
+
+
+Date: 16-08-2026
+===========================================================
+*/
+
+
+
 create database datawarehouse_analytics;
 
 select top 10 * from dim_customers;
